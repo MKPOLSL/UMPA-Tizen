@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors", "Sensors\Sensors.csproj", "{BBC7DF1D-E50C-473C-852F-0CC6457FA377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{8263AD22-9A6B-475D-B5BC-A709A6609060}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBC7DF1D-E50C-473C-852F-0CC6457FA377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC7DF1D-E50C-473C-852F-0CC6457FA377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC7DF1D-E50C-473C-852F-0CC6457FA377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC7DF1D-E50C-473C-852F-0CC6457FA377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8263AD22-9A6B-475D-B5BC-A709A6609060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8263AD22-9A6B-475D-B5BC-A709A6609060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8263AD22-9A6B-475D-B5BC-A709A6609060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8263AD22-9A6B-475D-B5BC-A709A6609060}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18985F94-FC19-42C4-AC91-951D0603798D}
+	EndGlobalSection
+EndGlobal

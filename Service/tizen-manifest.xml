@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest package="umpa.tizen.App" version="1.0.0" api-version="5.5" xmlns="http://tizen.org/ns/packages">
+    <profile name="common" />
+    <service-application appid="umpa.tizen.Service" exec="Service.dll" multiple="false" nodisplay="true" taskmanage="false" api-version="6" type="dotnet">
+        <label>Service</label>
+        <icon>Service.png</icon>
+        <background-category value="sensor" />
+        <splash-screens />
+    </service-application>
+    <shortcut-list />
+    <privileges>
+        <privilege>http://tizen.org/privilege/display</privilege>
+        <privilege>http://tizen.org/privilege/notification</privilege>
+    </privileges>
+    <dependencies />
+    <provides-appdefined-privileges />
+    <feature name="http://tizen.org/feature/sensor.linear_acceleration">true</feature>
+</manifest>

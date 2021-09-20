@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cui:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+				xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+				xmlns:local="clr-namespace:Sensors.Extensions" 
+				xmlns:cui ="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+				x:Class="Sensors.Pages.ServicePage"
+				x:Name="Page"
+				BindingContext="{Binding Source={x:Reference Page}, Path=Model}"
+				RotaryFocusObject="{x:Reference pageScroller}">
+    <cui:CirclePage.Content>
+        <cui:CircleScrollView x:Name="pageScroller" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" HeightRequest="300">
+            <StackLayout>
+                <Label Text="Usługa w tle" HorizontalOptions="Center" />
+                <Label Text="{Binding Message}" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+        </cui:CircleScrollView>
+    </cui:CirclePage.Content>
+    <cui:CirclePage.ActionButton>
+        <cui:ActionButtonItem Text="Uruchom" Clicked="Button_Clicked" />
+    </cui:CirclePage.ActionButton>
+</cui:CirclePage>
