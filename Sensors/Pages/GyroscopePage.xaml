@@ -10,8 +10,8 @@
 	<cui:CircleScrollView x:Name="pageScroller" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="CenterAndExpand" HeightRequest="300">
 		<StackLayout>
 			<Label Text="Gyroscope" HorizontalOptions="Center"/>
-			<Label Text="{Binding IsSupported, StringFormat='Is supported: {0}'}" Style="{StaticResource LabelDataStyle}"/>
-			<Label Text="{Binding SensorCount, StringFormat='Sensor count: {0}'}" Style="{StaticResource LabelDataStyle}"/>
+			<Label Text="{Binding IsSupported, StringFormat='Wspierane: {0}'}" Style="{StaticResource LabelDataStyle}"/>
+			<Label Text="{Binding SensorCount, StringFormat='ilość sensorów: {0}'}" Style="{StaticResource LabelDataStyle}"/>
 			<Label Text="{Binding X, StringFormat='X: {0:N2}'}}" Style="{StaticResource LabelDataStyle}"/>
 			<Label Text="{Binding Y, StringFormat='Y: {0:N2}'}}" Style="{StaticResource LabelDataStyle}"/>
 			<Label Text="{Binding Z, StringFormat='Z: {0:N2}'}}" Style="{StaticResource LabelDataStyle}"/>
